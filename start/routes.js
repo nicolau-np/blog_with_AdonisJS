@@ -17,3 +17,7 @@
 const Route = use('Route')
 
 Route.get('/', "HomeController.index")
+
+Route.get('/sobre', "HomeController.sobre")
+Route.get('/noticias', "NoticiaController.index")
+Route.get('/amigos', "AmigoController.index")
