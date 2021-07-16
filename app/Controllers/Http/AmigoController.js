@@ -1,6 +1,7 @@
 'use strict'
 
 class AmigoController {
+
   async index({ view }){
     const data = {
       title: "Amigos",
@@ -11,6 +12,7 @@ class AmigoController {
 
     return view.render('amigos', data)
   }
+  
 }
 
 module.exports = AmigoController
