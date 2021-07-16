@@ -4,7 +4,7 @@ class HomeController {
 
   async index({ view }){
     const data = {
-      title: "Blog Internacional",
+      title: "Blogueiros",
       menu: "Home",
       submenu: null,
       type: "home",
